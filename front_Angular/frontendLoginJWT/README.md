@@ -34,3 +34,6 @@ ng add @angular/material
 ## installation de axios  et bootstrapp
 ng add axios
 ng add bootstrap
+
+##ajout de la ligne "node_modules/bootstrap/dist/css/bootstrap.min.css"
+dans le angular.json a coté de style.
