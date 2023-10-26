@@ -10,4 +10,5 @@ public class BackendAppliMessagerieJwtApplication {
 		SpringApplication.run(BackendAppliMessagerieJwtApplication.class, args);
 	}
 
+
 }
