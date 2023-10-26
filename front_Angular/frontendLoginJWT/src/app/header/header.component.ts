@@ -1,17 +1,12 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'app-header',
-  standalone: true,
-  imports: [CommonModule],
-  template: `
-    <p>
-      header works!
-    </p>
-  `,
+  templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  @Input() pageTitle!: string;
+  @Input() logoSrc!: string;
 
 }
