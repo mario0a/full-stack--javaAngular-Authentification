@@ -30,3 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## installation de angular material
 ng add @angular/material
+
+## installation de axios  et bootstrapp
+ng add axios
+ng add bootstrap
