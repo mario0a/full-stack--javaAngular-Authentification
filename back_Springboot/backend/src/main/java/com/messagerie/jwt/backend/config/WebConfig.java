@@ -35,6 +35,7 @@ config.setAllowedMethods(Arrays.asList(
         HttpMethod.POST.name(),
         HttpMethod.PUT.name(),
         HttpMethod.DELETE.name()
+
 ));
 //le temps que la configuration Cors est acceptée, 30minutes
         config.setMaxAge(3600L);
