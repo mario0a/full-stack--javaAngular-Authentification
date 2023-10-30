@@ -12,6 +12,7 @@ spring:
 #      en production, on doit utiliser un outils de migration de base de donn?e comme Liquibase ou Flyway
 
 
+
 # docker run -d -e POSTGRES_HOST_AUTH_METHOD=trust -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=root@root -e POSTGRES_DB=messageriedb -p 5432:5432 postgres:13
 
 
